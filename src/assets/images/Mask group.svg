@@ -1,0 +1,24 @@
+<svg width="85" height="54" viewBox="0 0 85 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mask group">
+<rect id="Rectangle 6377" x="0.35" y="-0.35" width="100.206" height="70.2876" transform="matrix(-1 -7.04794e-08 -4.45558e-08 1 101.461 -9.21875)" fill="#E7F0FF" stroke="#BDD7FF" stroke-width="0.7"/>
+<mask id="mask0_2344_8157" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1" y="-10" width="100" height="71">
+<rect id="Rectangle 6378" width="99.5061" height="69.5876" transform="matrix(-1 -7.04794e-08 -4.45558e-08 1 100.761 -9.21875)" fill="white"/>
+</mask>
+<g mask="url(#mask0_2344_8157)">
+<g id="Group 1000003821" opacity="0.1">
+<line id="Line 694" y1="-0.5" x2="159.076" y2="-0.5" transform="matrix(-0.873101 -0.487539 0.840222 -0.542243 69.8896 90.9453)" stroke="black"/>
+<line id="Line 695" y1="-0.5" x2="159.076" y2="-0.5" transform="matrix(-0.873101 -0.487539 0.840222 -0.542243 78.2633 85.541)" stroke="black"/>
+<line id="Line 696" y1="-0.5" x2="159.076" y2="-0.5" transform="matrix(-0.873101 -0.487539 0.840222 -0.542243 86.6371 80.1377)" stroke="black"/>
+<line id="Line 697" y1="-0.5" x2="159.076" y2="-0.5" transform="matrix(-0.873101 -0.487539 0.840222 -0.542243 95.0106 74.7334)" stroke="black"/>
+<line id="Line 698" y1="-0.5" x2="159.076" y2="-0.5" transform="matrix(-0.873101 -0.487539 0.840222 -0.542243 103.384 69.3291)" stroke="black"/>
+<line id="Line 699" y1="-0.5" x2="159.076" y2="-0.5" transform="matrix(-0.873101 -0.487539 0.840222 -0.542243 111.758 63.9248)" stroke="black"/>
+<line id="Line 700" y1="-0.5" x2="159.076" y2="-0.5" transform="matrix(-0.873101 -0.487539 0.840222 -0.542243 120.132 58.5215)" stroke="black"/>
+<line id="Line 701" y1="-0.5" x2="159.076" y2="-0.5" transform="matrix(-0.873101 -0.487539 0.840222 -0.542243 128.505 53.1172)" stroke="black"/>
+<line id="Line 702" y1="-0.5" x2="159.076" y2="-0.5" transform="matrix(-0.873101 -0.487539 0.840222 -0.542243 136.879 47.7129)" stroke="black"/>
+<line id="Line 703" y1="-0.5" x2="159.076" y2="-0.5" transform="matrix(-0.873101 -0.487539 0.840222 -0.542243 145.253 42.3096)" stroke="black"/>
+<line id="Line 704" y1="-0.5" x2="159.076" y2="-0.5" transform="matrix(-0.873101 -0.487539 0.840222 -0.542243 153.626 36.9053)" stroke="black"/>
+<line id="Line 705" y1="-0.5" x2="159.076" y2="-0.5" transform="matrix(-0.873101 -0.487539 0.840222 -0.542243 162 31.501)" stroke="black"/>
+</g>
+</g>
+</g>
+</svg>

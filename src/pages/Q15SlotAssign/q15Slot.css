@@ -1,0 +1,1450 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo Sans:wght@400;600&display=swap');
+
+
+
+.newLine-border {
+    position: absolute;
+    top: 25.5px;
+    left: 11px;
+    border-right: 2px solid gainsboro;
+    box-sizing: border-box;
+    width: 1px;
+    height: 448px;
+}
+
+.mettlerTitleLogo {
+    margin-top: 51px;
+    margin-left: 65px;
+    width: 247.45px;
+    height: 28.831px;
+}
+
+.login-section {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.passcode-section {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.welcomeToMettler {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -0.44px;
+    display: flex;
+    width: 434px;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-top: 259px;
+    margin-left: 70px;
+}
+
+.specialize {
+    display: flex;
+    width: 434px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-left: 70px;
+    margin-top: 22px;
+}
+
+.loginSecondPage {
+    margin-Top: 100px;
+}
+
+.loginText1 {
+    color: #415076;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: justify
+}
+
+.loginText2 {
+    color: #415076;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: justify;
+    margin-top: 5px;
+}
+
+.textLogin {
+    display: flex;
+    margin-top: 30px;
+    opacity: 0.7;
+}
+
+.inputLogin {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 320px;
+    height: 40px;
+    margin-left: -24px;
+    background: #FFF;
+}
+
+
+
+.passwordLogin {
+    display: flex;
+    margin-top: 17px;
+    opacity: 0.7;
+}
+
+.OrganizationLogin {
+    display: flex;
+    margin-top: 17px;
+    opacity: 0.7;
+}
+
+.rememberLogin {
+    display: flex;
+    margin-top: 20px
+}
+
+.buttonLogin {
+    display: flex;
+    margin-top: 20px;
+    height: 48px
+}
+
+#newRemovePadding {
+    padding: 0.5rem !important;
+}
+
+.loginError {
+    color: red;
+    text-align: center;
+}
+
+.emptyGroup {
+    margin-top: 0px !important;
+}
+
+.passCodeText {
+    display: flex;
+    color: #415076;
+    font-family: 'Poppins', sans-serif;
+    -webkit-text-stroke: thin;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.passCodeText1 {
+    display: flex;
+    color: #415076;
+    font-family: 'Poppins', sans-serif;
+    -webkit-text-stroke: thin;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-left: -30px;
+    width: max-content;
+}
+
+.passwordText {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.passwordText1 {
+    position: relative;
+    text-align: center;
+    top: 36px;
+    width: 38px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid #DCDDE5;
+}
+
+.passwordText2 {
+    position: relative;
+    text-align: center;
+    top: 36px;
+    width: 38px;
+    height: 36px;
+    left: 15px;
+    background: #FFFFFF;
+    border: 1px solid #DCDDE5;
+}
+
+.passwordText3 {
+    position: relative;
+    text-align: center;
+    top: 36px;
+    width: 38px;
+    height: 36px;
+    left: 30px;
+    background: #FFFFFF;
+    border: 1px solid #DCDDE5;
+}
+
+.passwordText4 {
+    position: relative;
+    text-align: center;
+    top: 36px;
+    width: 38px;
+    height: 36px;
+    left: 45px;
+    background: #FFFFFF;
+    border: 1px solid #DCDDE5;
+}
+
+.passwordText5 {
+    position: relative;
+    text-align: center;
+    top: 36px;
+    width: 38px;
+    height: 36px;
+    left: 60px;
+    background: #FFFFFF;
+    border: 1px solid #DCDDE5;
+}
+
+.passwordText6 {
+    position: relative;
+    text-align: center;
+    top: 36px;
+    width: 38px;
+    height: 36px;
+    left: 75px;
+    background: #FFFFFF;
+    border: 1px solid #DCDDE5;
+}
+
+
+.backspacePasscode {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    position: relative;
+    left: 225px;
+    top: 153px;
+}
+
+.buttonPasscode {
+    display: flex;
+    margin-top: 77px;
+    margin-left: -6px;
+    height: 48px
+}
+
+.forgotPassCode {
+    color: #1948A0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.027px;
+    text-align: center;
+    margin-left: 13px;
+    margin-top: 4px;
+}
+
+.passcode-secondPage {
+    margin-top: 210px;
+}
+
+.forgot-section {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.forgotPasswordPageText {
+    color: #2E1B1B;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 24.09px;
+
+}
+
+.additionalText {
+    color: #545B82;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6000000238418579;
+    margin-top: 1.5px;
+
+}
+
+.forgotTextInput {
+
+    margin-top: 29px;
+}
+
+.forgotInput {
+    border-radius: 4px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: #FFF;
+    width: 300px;
+    height: 50px;
+}
+
+.resetPasswordOutline {
+    display: flex;
+    width: 300px;
+    height: 48px;
+    flex-shrink: 0;
+    margin-top: 24px;
+    border: 0px;
+    border-radius: 3px;
+    background: #E0E7F4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.backToLogin {
+    display: flex;
+    width: 95px;
+    height: 26px;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-text-stroke: thin;
+    flex-shrink: 0;
+    color: var(--primary, #133C93);
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.forgotAlign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard-1 {
+    border-radius: 10px;
+    background: #E3F5FF;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.patientDashboard {
+    border-radius: 10px;
+    background: #ECF4FF;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.patient-1-dashboardText {
+    color: var(--default, #3F3F46);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-style: normal;
+    -webkit-text-stroke: thin;
+    line-height: normal;
+}
+
+.patient-1-dashboardImage {
+    width: 110.78px;
+    height: 75.157px;
+    flex-shrink: 0;
+    position: relative;
+    top: 6.25px;
+    align-self: center;
+}
+
+.patient-1-dashboardSpeedoText {
+    color: #A1AEBB;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    -webkit-text-stroke: 0.1px;
+    line-height: normal;
+}
+
+.patient-dashboard-deleteText {
+    display: flex;
+    padding: 4px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 6px;
+    background: #E1E8EB;
+    color: var(--default, #3F3F46);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    -webkit-text-stroke: 0.5px;
+    line-height: normal;
+    position: relative;
+    left: 534px;
+}
+
+.patient-dashboard-count-deleteText {
+    color: var(--default, #3F3F46);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    -webkit-text-stroke: thin;
+    line-height: normal;
+    position: relative;
+    top: 5px;
+    left: 544px;
+}
+
+.dashboard-1-text {
+    color: #6C8195;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    -webkit-text-stroke: 0.2px;
+    line-height: normal;
+}
+
+.dashboard-1-count {
+    color: #3E4D64;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    -webkit-text-stroke: 0.1rem;
+    line-height: normal;
+}
+
+.dashboard-1-percent-change {
+    color: #1C9878;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.dashboard-2-percent-change {
+    color: #D76C6C;
+    text-align: right;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left: 132px;
+}
+
+.dashboard-Title {
+    width: calc(100% - 10px);
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #F8FAFB;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboard-Title-insideText {
+    color: var(--default, #3F3F46);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    left: -11px;
+    top: 4px;
+}
+.vpdashboard-Title{
+    width: calc(100% - 10px);
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #F8FAFB;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 2px;
+  top: 133px;
+
+}
+
+.dashbord{
+    display: none;
+    left:47px;
+  position: absolute;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  border-radius: 4px;
+  font-size: small;
+  color: #000;
+
+}
+.dashbordHover :hover{background-color: #000000;}
+
+
+.dashbord a:hover {background-color: #ddd;}
+
+.dashbordHover:hover .dashbord {display: block;}
+
+
+#allRemovePadding {
+    padding: 0rem !important;
+}
+#allmarginPadding {
+    margin: 0.5rem !important;
+}
+
+.PatientData .p-datatable .p-datatable-thead>tr>th {
+    background: #FFF;
+    border: 0px;
+    border-bottom: 2px solid rgba(160, 172, 181, 0.25);
+    padding-left: 8px;
+    padding-bottom: 14px;
+}
+
+.default-page {
+    background: rgb(248, 250, 252);
+    width: 1203px;
+    margin-left: -26px;
+    margin-top: -16px;
+}
+
+.App-TopBar-PatientName {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.024px;
+}
+
+.PatientLoginDashboard .layout-main {
+    background: #fff;
+}
+
+.App-TopBar-PatientAge {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 20.8px */
+    letter-spacing: 0.016px;
+}
+
+.App-TopBar-PatientCheck {
+    width: 110px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #4263AB;
+}
+
+.App-TopBar-BloodName {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    /* 15.6px */
+    letter-spacing: 0.012px;
+}
+
+.App-TopBar-PatientValue {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.016px;
+}
+
+.App-TopBar-DoctorDetails {
+    width: 229px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #4263AB;
+}
+
+
+
+.PatientData .p-datatable .p-datatable-thead>tr>td> {
+    background: #FFF;
+    border: 0px;
+    border-bottom: 1px solid rgba(160, 172, 181, 0.25);
+}
+
+.PatientData .p-datatable .p-datatable-scrollable-colgroup {
+    background: #FFF;
+
+}
+
+.PatientData .p-datatable .p-datatable-tbody>tr {
+    border-bottom: 1px solid #EFF2F3;
+}
+
+.PatientData .p-datatable .p-datatable-tbody>tr>td {
+    border-left: 0px;
+    border-right: 0px;
+
+}
+
+.PatientData .p-datatable .p-datatable-footer {
+    background-color: white;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 2px solid #B0B7C9;
+    margin-bottom: -14px;
+    margin-left: 29px;
+    width: 1160px
+}
+
+.PatientData .p-datatable .p-datatable-tbody>tr.p-highlight {
+    background-color: white;
+    color: #000;
+}
+
+.PatientData .p-datatable .p-datatable-tbody>tr:nth-child(even).p-highlight {
+    background-color: white;
+    color: #000;
+}
+
+.Patient-datatable-name {
+    color: #93979F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.AppTopBar-changeStatus {
+    color: #292F52;
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.153px;
+}
+
+.dashboard-search-text {
+    color: #8490A9;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.16px;
+    background-color: #FFF;
+}
+
+.notificationCount {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.289px;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    background: #DF1F60;
+}
+
+.Patient-EHR-HeartRate {
+    border-radius: 12px;
+    background: #FFF;
+    height: 152.763px;
+    flex-shrink: 0;
+    width: 254.974px;
+}
+
+.Patient-EHR-Temperature {
+    border-radius: 12px;
+    background: linear-gradient(180deg, rgba(111, 82, 210, 0.15) 0%, rgba(255, 255, 255, 0.00) 100%);
+    height: 152.763px;
+    flex-shrink: 0;
+    width: 254.974px;
+}
+
+.Patient_EHR-HeartRateName {
+    color: #6C8195;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    -webkit-text-stroke: thin;
+    line-height: normal;
+}
+
+.Patient-EHR-RateValue {
+    color: #3E4D64;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    -webkit-text-stroke: thin;
+    line-height: normal;
+}
+
+.Patient-ECGWidth {
+    width: 689px;
+    height: 368px;
+    flex-shrink: 0;
+    background: #FFF;
+}
+
+.patient-Q15-Width {
+    width: 350px;
+    height: 75px;
+    flex-shrink: 0;
+    background: #1F489F;
+}
+
+.Admit-patient {
+    width: 350px;
+    height: 75px;
+    flex-shrink: 0;
+    background: #FFF;
+}
+
+.patient-Q15-text {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 130%;
+    /* 23.4px */
+    letter-spacing: 0.018px;
+}
+
+.patient-heartECG-bpmAverage {
+    display: flex;
+    width: 162px;
+    height: 31px;
+    padding: 6px 15px;
+    align-items: flex-start;
+    gap: 11px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F2F5F9;
+}
+
+.patient-ECG-ReadingValue {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    /* 18.2px */
+    letter-spacing: 0.014px;
+}
+
+.patient-schedule-button1 {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #2E5DC0;
+}
+
+.patient-schedule-yogaWidth {
+    width: 323px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #D6D1E8;
+    background: #E6E1F9;
+}
+
+.patient-schedule-GeneralCheckup {
+    width: 323px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #DCE3EB;
+    background: #F1F5FA;
+}
+
+.patient-dailyProgress-Text {
+    color: #404253;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    -webkit-text-stroke: thin;
+    line-height: 130%;
+    /* 27.3px */
+    letter-spacing: 0.021px;
+}
+
+.patient-ECG-bpmtext {
+    color: #75859C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 20.8px */
+    letter-spacing: 0.016px;
+}
+
+.patient-date-ECGInline {
+    color: #6C8195;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    -webkit-text-stroke: thin;
+    line-height: 130%;
+    /* 18.2px */
+    letter-spacing: 0.014px;
+}
+
+.patient-ECG-Reading {
+    color: #A3B3C2;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 20.8px */
+    letter-spacing: 0.016px;
+}
+
+.patient-Q15-dialogTitle {
+    color: #292F52;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    -webkit-text-stroke: thin;
+    line-height: normal;
+    letter-spacing: 0.153px;
+}
+
+.patient-Q15-CalendarSelectOutline {
+    width: 67px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #255ED6;
+}
+
+.patient-Q15-CalendarSelectLine {
+    width: 63px;
+    height: 1px;
+    background: #5E8AE7;
+}
+
+.patient-Q15-CalendarUnselectOutline {
+    width: 67px;
+    height: 74px;
+    flex-shrink: 0;
+    border: 1px solid #CDD2DC;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.patient-Q15-CalendarUnSelectLine {
+    width: 63px;
+    height: 1px;
+    background: #CDD2DC;
+}
+
+.patient-Q15-Calendar {
+    border-radius: 7px;
+    background: #FFF;
+    border: 1px solid #95A3C0;
+}
+
+.patient-Q15-CalendarText {
+    color: #95A3C0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* 36.4px */
+    letter-spacing: 0.028px;
+}
+
+.patient-Q15-TimeSlotSelect {
+    color: #1F489F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.patient-Q15-TimeSlotUnSelect {
+    color: #414141;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.patient-Q15-TimeSlotSelectLine {
+    width: 90px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #1F489F;
+}
+
+.patient-Q15-SlotSection {
+    width: 95px;
+    height: 55px;
+    border-radius: 5px;
+    border: 1.5px solid #6581BC;
+    background: #FFF;
+    padding: 14px 15px 16px 23px;
+}
+
+.patient-Q15-SlotSection-Text {
+    color: #415F9E;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.patient-Q15-OccupiedSlot-Text {
+    color: #A4AEC1;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.patient-Q15-TimeSlotUnSelectLine {
+    width: calc(100% - 38px);
+    height: 2px;
+    flex-shrink: 0;
+    background: #E0E4EE;
+}
+
+.Admin-home-page {
+    width: 320px;
+    height: 221px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FFF;
+}
+
+.Admin-dashboard-1-IconBG {
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 41px;
+    border-radius: 40px;
+    background: #F29C38;
+}
+
+.Admin-dashboard-Title1 {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Admin-dashboard-1-content {
+    color: #4F5A75;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Admin-dashboard-1-viewAppcontent {
+    color: #01A4FF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.App-create-patient {
+    width: 154px;
+    height: 36px;
+    display: inline-flex;
+    padding: 6px 7px;
+    align-items: center;
+    gap: 16px;
+    border-radius: 70px;
+    background: var(--secondary, #01CDFF);
+}
+
+.App-CreatePatient-font {
+    color: var(--app-1, #FFF);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.App-inline-text {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.createPatient-stepLabel {
+    color: var(--default, #3F3F46);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    /* 192.857% */
+    letter-spacing: 0.153px;
+}
+
+.createPatient-split {
+    color: #E3E6E7;
+    border-left-style: outset;
+    position: absolute;
+}
+
+.createPatient-title {
+    width: 483.662px;
+    color: #1C3159;
+    border-radius: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.1px;
+    opacity: 0.5;
+}
+
+.createPatient-uploadProfile {
+    width: 234px;
+    height: 70px;
+    display: flex;
+    flex-shrink: 0;
+    border: 1px dashed #9FACC6;
+    background: #FAFBFD;
+    position: relative;
+    top: 9px;
+    left: 536px
+}
+
+.createPatient-uploadProfileText {
+    color: var(--completed, #9DA1C3);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.1px;
+    position: relative;
+    top: 25px;
+    left: 56px;
+}
+
+.createPatient-TitleDropDown {
+    width: 488px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #D9DFEE;
+    background: #FFF;
+    color: #172B4C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    border-radius: 1px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.1px;
+}
+
+
+.createPatient-nameTitle {
+    color: #8494B7;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 1px;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: -0.16px;
+}
+
+.createPatient-DateofBirth {
+    color: #8494B7;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    border-radius: 1px;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: -0.16px;
+}
+
+.p-fluid .p-inputtext {
+    border: 0px;
+}
+
+.cretePatient-GenderOrient {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.1px;
+}
+
+.createPatient-addressType {
+    color: #172B4D;
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.AppTopBar-profileName {
+    color: #172B4D;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.AppTopBar-subHeading-profile {
+    color: #515667;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.AppTopBar-statusChange {
+    color: #1C3159;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.1px;
+    opacity: 0.5;
+}
+
+@media (max-width:768px) {
+
+
+    .mettlerTitleLogo {
+        margin-top: 47px;
+        margin-left: 56px;
+        width: 166.45px;
+        height: 22.831px;
+    }
+
+    .login-section {
+        position: inherit;
+        left: 0;
+        right: 0;
+        top: -42px;
+        bottom: 0;
+    }
+
+
+    .welcomeToMettler {
+        color: #FFF;
+        font-family: 'Poppins', sans-serif;
+        font-size: 31px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: -0.44px;
+        width: 434px;
+        display: table-footer-group;
+        position: relative;
+        top: 167px;
+        left: 56px
+    }
+
+    .specialize {
+        display: table-footer-group;
+        position: relative;
+        width: 434px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 23px;
+        left: 56px;
+        top: 302px;
+    }
+
+    .loginSecondPage {
+        margin-Top: 100px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .emptyGroup {
+        margin-top: 304px !important;
+    }
+
+    .loginText1 {
+        color: #415076;
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: -250px;
+    }
+
+    .loginText2 {
+        color: #415076;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: justify;
+        margin-top: 5px;
+        margin-left: -122px;
+    }
+
+    #newRemovePadding {
+        position: relative;
+        padding: 0.5rem !important;
+        margin-bottom: 109px !important;
+    }
+
+    
+
+    .passcode-secondPage {
+        margin-top: 210px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .passcode-section {
+        position: relative;
+        margin-right: -23px;
+        left: -7px;
+        top: -51px;
+        bottom: 0;
+    }
+
+    .passCodeText {
+        display: flex;
+        color: #415076;
+        font-family: 'Poppins', sans-serif;
+        -webkit-text-stroke: thin;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .passCodeText1 {
+        display: flex;
+        color: #415076;
+        font-family: 'Poppins', sans-serif;
+        -webkit-text-stroke: thin;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+        margin-left: 151px;
+    }
+
+    .passwordText {
+        display: block;
+        margin-left: -92px;
+    }
+
+    .passwordText1 {
+        position: relative;
+        text-align: center;
+        top: 36px;
+        width: 38px;
+        height: 36px;
+        background: #FFFFFF;
+        border: 1px solid #DCDDE5;
+    }
+
+    .passwordText2 {
+        position: relative;
+        text-align: center;
+        top: 36px;
+        width: 38px;
+        height: 36px;
+        left: 15px;
+        background: #FFFFFF;
+        border: 1px solid #DCDDE5;
+    }
+
+    .passwordText3 {
+        position: relative;
+        text-align: center;
+        top: 36px;
+        width: 38px;
+        height: 36px;
+        left: 30px;
+        background: #FFFFFF;
+        border: 1px solid #DCDDE5;
+    }
+
+    .passwordText4 {
+        position: relative;
+        text-align: center;
+        top: 36px;
+        width: 38px;
+        height: 36px;
+        left: 45px;
+        background: #FFFFFF;
+        border: 1px solid #DCDDE5;
+    }
+
+    .passwordText5 {
+        position: relative;
+        text-align: center;
+        top: 36px;
+        width: 38px;
+        height: 36px;
+        left: 60px;
+        background: #FFFFFF;
+        border: 1px solid #DCDDE5;
+    }
+
+    .passwordText6 {
+        position: relative;
+        text-align: center;
+        top: 36px;
+        width: 38px;
+        height: 36px;
+        left: 75px;
+        background: #FFFFFF;
+        border: 1px solid #DCDDE5;
+    }
+
+    .backspacePasscode {
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+        position: relative;
+        left: 251px;
+        top: 153px;
+    }
+
+    .buttonPasscode {
+        display: flex;
+        margin-top: 77px;
+        margin-left: -6px;
+        height: 48px;
+        align-self: center;
+    }
+
+    .forgotPassCode {
+        color: #1948A0;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.027px;
+        text-align: center;
+    }
+
+    .forgot-section {
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+}
